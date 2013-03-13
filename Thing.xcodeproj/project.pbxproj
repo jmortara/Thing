@@ -16,6 +16,8 @@
 		9696CB6D16F03539002FA5D5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9696CB6C16F03539002FA5D5 /* Default.png */; };
 		9696CB6F16F03539002FA5D5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9696CB6E16F03539002FA5D5 /* Default@2x.png */; };
 		9696CB7116F03539002FA5D5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9696CB7016F03539002FA5D5 /* Default-568h@2x.png */; };
+		9696CB7916F03593002FA5D5 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 9696CB7816F03593002FA5D5 /* View.m */; };
+		9696CB7C16F035BE002FA5D5 /* Guy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9696CB7B16F035BE002FA5D5 /* Guy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		9696CB6C16F03539002FA5D5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		9696CB6E16F03539002FA5D5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9696CB7016F03539002FA5D5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9696CB7716F03593002FA5D5 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		9696CB7816F03593002FA5D5 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		9696CB7A16F035BE002FA5D5 /* Guy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Guy.h; sourceTree = "<group>"; };
+		9696CB7B16F035BE002FA5D5 /* Guy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Guy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,10 @@
 			children = (
 				9696CB6916F03539002FA5D5 /* AppDelegate.h */,
 				9696CB6A16F03539002FA5D5 /* AppDelegate.m */,
+				9696CB7716F03593002FA5D5 /* View.h */,
+				9696CB7816F03593002FA5D5 /* View.m */,
+				9696CB7A16F035BE002FA5D5 /* Guy.h */,
+				9696CB7B16F035BE002FA5D5 /* Guy.m */,
 				9696CB6116F03539002FA5D5 /* Supporting Files */,
 			);
 			path = Thing;
@@ -166,6 +176,8 @@
 			files = (
 				9696CB6716F03539002FA5D5 /* main.m in Sources */,
 				9696CB6B16F03539002FA5D5 /* AppDelegate.m in Sources */,
+				9696CB7916F03593002FA5D5 /* View.m in Sources */,
+				9696CB7C16F035BE002FA5D5 /* Guy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
